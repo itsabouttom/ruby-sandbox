@@ -7,4 +7,6 @@ sentence = sentences.sample
 # write your program below
 #   "'the' appeared X times"
 
-
+print sentence
+the_sentence = sentence.gsub(/[^^(the)$]/, "")
+print the_sentence
