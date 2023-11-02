@@ -51,6 +51,15 @@ some_random_input = unpredictable_inputs.sample
         print "error in Integer statement"
       end
     
-    elsif some_random_input.class == 
+    elsif some_random_input.class == Symbol
+      print some_random_input.downcase
+    
+    elsif some_random_input.class == nil
+      print "no object provided"
+
+    elsif some_random_input.class == true
+      print "you may pass"
+    elsif some_random_input.class == false
+      print "you may not pass"
     
   end
