@@ -14,11 +14,10 @@ unpredictable_inputs = [
 some_random_input = unpredictable_inputs.sample
 # write your program below
 
-
-  if some_random_input.class == String
+if some_random_input.class == String
     print some_random_input.downcase
 
-  elsif some_random_input.class == Time
+elsif some_random_input.class == Time
     year_input = some_random_input.year
     month_input = some_random_input.month
     day_input = some_random_input.day 
@@ -42,7 +41,7 @@ some_random_input = unpredictable_inputs.sample
         print "error in Time statement"
       end
     
-    elsif some_random_input.class == Integer
+elsif some_random_input.class == Integer
       if some_random_input.odd? == true
         print "#{some_random_input} is even"
       elsif some_random_input.even? == true
@@ -51,20 +50,20 @@ some_random_input = unpredictable_inputs.sample
         print "error in Integer statement"
       end
     
-    elsif some_random_input.class == Symbol
+elsif some_random_input.class == Symbol
       print some_random_input.downcase
     
-    elsif some_random_input.class == nil
+elsif some_random_input.class == nil
       print "no object provided"
 
-    elsif some_random_input.class == true
+elsif some_random_input == true
       print "you may pass"
-    elsif some_random_input.class == false
+elsif some_random_input == false
       print "you may not pass"
 
-    elsif some_random_input.class == Hash
+elsif some_random_input.class == Hash
       print some_random_input.keys
     
-    else 
-      print "iteration error"
-  end
+else 
+      print "iteration error for #{some_random_input}"
+end
