@@ -43,9 +43,9 @@ elsif some_random_input.class == Time
     
 elsif some_random_input.class == Integer
       if some_random_input.odd? == true
-        print "#{some_random_input} is even"
-      elsif some_random_input.even? == true
         print "#{some_random_input} is odd"
+      elsif some_random_input.even? == true
+        print "#{some_random_input} is even"
       else
         print "error in Integer statement"
       end
