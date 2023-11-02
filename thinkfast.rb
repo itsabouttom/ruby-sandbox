@@ -11,6 +11,7 @@ unpredictable_inputs = [
   { :city => "Chicago", :state => "IL", :zip => 60654 }
 ]
 
+
 some_random_input = unpredictable_inputs.sample
 # write your program below
 
@@ -51,8 +52,8 @@ elsif some_random_input.class == Integer
       end
     
 elsif some_random_input.class == Symbol
-      print some_random_input.downcase
-    
+      pp some_random_input.downcase
+
 elsif some_random_input == nil
       print "no object provided"
 
