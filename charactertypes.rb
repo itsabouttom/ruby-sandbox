@@ -26,6 +26,6 @@ letter_count = letter_array.count
 spaces_count = spaces_array.count
 digits_count = digits_array.count
 
-print "Number of letters in the string is: #{letter_count}"
-print "Number of spaces in the string is: #{spaces_count}"
-print "Number of digits in the string is: #{digits_count}"
+pp "Number of letters in the string is: #{letter_count}"
+pp "Number of spaces in the string is: #{spaces_count}"
+pp "Number of digits in the string is: #{digits_count}"
