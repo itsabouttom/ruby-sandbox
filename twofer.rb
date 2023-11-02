@@ -5,5 +5,5 @@ if name == ""
 else 
   name = name.downcase
   name = name.capitalize
-  print "One for #{name}, and one for me."
+  print "One for " + name + ", and one for me"
 end
