@@ -65,5 +65,6 @@ elsif some_random_input.class == Hash
       print some_random_input.keys
     
 else 
-      print "iteration error for #{some_random_input}"
+    print some_random_input
+    print "iteration error for #{some_random_input}"
 end
