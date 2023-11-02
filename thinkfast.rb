@@ -61,5 +61,10 @@ some_random_input = unpredictable_inputs.sample
       print "you may pass"
     elsif some_random_input.class == false
       print "you may not pass"
+
+    elsif some_random_input.class == Hash
+      print some_random_input.keys
     
+    else 
+      print "iteration error"
   end
