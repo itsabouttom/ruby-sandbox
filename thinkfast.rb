@@ -1,3 +1,5 @@
+require "date"
+
 unpredictable_inputs = [
   "Hello!",
   Time.now,
@@ -11,4 +13,10 @@ unpredictable_inputs = [
 
 some_random_input = unpredictable_inputs.sample
 # write your program below
-
+  if some_random_input.class == String
+    print some_random_input.downcase
+  elsif some_random_input.class == Time
+    some_random_input.
+    
+    
+  end
