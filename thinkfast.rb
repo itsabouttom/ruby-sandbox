@@ -39,9 +39,18 @@ some_random_input = unpredictable_inputs.sample
       elsif weekday == 6
         print "saturday"
       else
-        print "error in day of week calculation"
+        print "error in Time statement"
       end
     
-    elsif 
+    elsif some_random_input.class == Integer
+      if some_random_input.odd? == true
+        print "#{some_random_input} is even"
+      elsif some_random_input.even? == true
+        print "#{some_random_input} is odd"
+      else
+        print "error in Integer statement"
+      end
+    
+    elsif some_random_input.class == 
     
   end
