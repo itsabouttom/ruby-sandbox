@@ -7,6 +7,12 @@ sentence = sentences.sample
 # write your program below
 #   "'the' appeared X times"
 
-print sentence
-the_sentence = sentence.gsub(/[^^(the)$]/, "")
-print the_sentence
+#print sentence
+sentence = sentence.downcase
+sentence = sentence.gsub(/(the)/, "T")
+sentence = sentence.gsub(/[^T]/, "")
+sentence = sentence.gsub("T", "the,")
+sentence_split = sentence.split(",")
+the_count = sentence_split.count
+#print sentence
+print "'the' appeared #{the_count} times"
