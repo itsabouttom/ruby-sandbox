@@ -9,7 +9,8 @@ sentence = sentences.sample
 
 #pp sentence
 sentence = sentence.downcase
-sentence = sentence.gsub(/(the)\W/, "T")
+sentence = sentence.gsub(/(the)/, "T")
+sentence = sentence.gsub(/(T)\w/, "")
 #pp sentence
 sentence = sentence.gsub(/[^T]/, "")
 sentence = sentence.gsub("T", "the,")
